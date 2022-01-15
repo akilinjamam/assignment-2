@@ -164,6 +164,8 @@
     height: 250px;
     background-color: #05052e;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -184,6 +186,46 @@
     text-decoration: none;
     color: white;
     font-size: 15px;
+}
+
+/* for mobile device */
+
+@media (max-width: 500px) {
+    .navigation{
+    display:none;
+    }
+.second-part{
+    display: none;
+}
+.first-part{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.grid-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-now{
+    display:none;
+}
+.footer .footer-info p{
+    font-size: 10px;
+}
+.first-part .image-part img{
+    width: 300px;
+    height: 300px;
+}
+
+.info-part p{
+    font-size: 12px;
+    width: 200px;
+}
+
+
 }
 
 
